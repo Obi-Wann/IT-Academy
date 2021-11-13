@@ -1,187 +1,178 @@
-
-body{
-    max-width: 1200px;
-    padding: 20px;
+body {
+  max-width: 1200px;
+  padding: 20px;
 }
 
-
-header{
-    background: black;
-    padding: 20px;
+header {
+  background: black;
+  padding: 20px;
 }
 
-.cabecera{
-    display: inline-block;
-    background: red;
-    margin: 10px ; 
-    color: red; 
-    width: 15%;  
+.cabecera {
+  display: inline-block;
+  background: red;
+  margin: 10px;
+  color: red;
+  width: 15%;
 }
 
-.cabeceraLargo{
-    
-    width: 75%;  
- }
-
-.PadreHeader{
-    background: rgb(63, 60, 60);
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
+.cabeceraLargo {
+  width: 75%;
 }
 
-nav{
-    background: black;
-    padding: 0 20px 20px 20px;
+.PadreHeader {
+  background: rgb(63, 60, 60);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.div-nav{
-    background: orange;
-    padding: 10px;
+nav {
+  background: black;
+  padding: 0 20px 20px 20px;
 }
 
-.navegacion{
-     background: rgb(255, 230, 0);
-     color: rgb(255, 230, 0);
-     margin: 10px;
+.div-nav {
+  background: orange;
+  padding: 10px;
 }
 
-section{
-    background: black;
-    padding: 20px;
-    margin: 20px 0;
-    width: 75%;
+.navegacion {
+  background: rgb(255, 230, 0);
+  color: rgb(255, 230, 0);
+  margin: 10px;
 }
 
-.padre-section{
-    background: rgb(63, 60, 60);
-    padding: 10px;        
+section {
+  background: black;
+  padding: 20px;
+  margin: 20px 0;
+  width: 75%;
 }
 
-.seccion{
-    background: rgb(5, 112, 145);
-    color: rgb(5, 112, 145);
-    margin: 10px;
-    width: 50%;
+.padre-section {
+  background: rgb(63, 60, 60);
+  padding: 10px;
 }
 
-.columna1{
-    display: flex;
+.seccion {
+  background: rgb(5, 112, 145);
+  color: rgb(5, 112, 145);
+  margin: 10px;
+  width: 50%;
 }
 
-.columna2{
-    display: flex;
+.columna1 {
+  display: flex;
 }
 
-.sectionPie{
-    background: rgb(113, 189, 183);
-    color: rgb(113, 189, 183);
-    margin: 10px 10px 0 10px;
+.columna2 {
+  display: flex;
 }
 
-aside{
-    background: black;
-    padding:  20px 20px 20px 0;
-    margin: 20px  0 ;
-    width: 25%;  
+.sectionPie {
+  background: rgb(113, 189, 183);
+  color: rgb(113, 189, 183);
+  margin: 10px 10px 0 10px;
 }
 
-.div-aside{
-    background: rgb(255, 0, 0);
-    padding: 10px 10px 75px 10px; 
+aside {
+  background: black;
+  padding: 20px 20px 20px 0;
+  margin: 20px 0;
+  width: 25%;
 }
 
-.aside{
-    background: rgb(255, 196, 0);
-    color: rgb(255, 196, 0);
-    margin: 10px;
+.div-aside {
+  background: rgb(255, 0, 0);
+  padding: 10px 10px 75px 10px;
 }
 
-.section-aside{
-   display: flex;
-   justify-content: center;
+.aside {
+  background: rgb(255, 196, 0);
+  color: rgb(255, 196, 0);
+  margin: 10px;
 }
 
-footer{
-    background: black;
-    padding: 10px;
- 
+.section-aside {
+  display: flex;
+  justify-content: center;
 }
 
-.footer{
-    background: rgb(255, 217, 0);
-    color: rgb(255, 217, 0);
-    margin: 10px;
+footer {
+  background: black;
+  padding: 10px;
 }
 
-@media ( max-width: 900px){
+.footer {
+  background: rgb(255, 217, 0);
+  color: rgb(255, 217, 0);
+  margin: 10px;
+}
 
-    body{
-        margin: 20px;
-    }
+@media (max-width: 900px) {
+  body {
+    margin: 20px;
+  }
 
-     section{
-         background: yellow;
-         width: 93%;
-         margin: 10px 10px 0 0;
-         padding: 20px 20px 0 20px;
-     }
+  section {
+    background: yellow;
+    width: 93%;
+    margin: 10px 10px 0 0;
+    padding: 20px 20px 0 20px;
+  }
 
-    aside{
-        background: yellow;
-        width : 96% ;
-        margin: 0 10px 10px 0px;
-             
-     }
+  aside {
+    background: yellow;
+    width: 96%;
+    margin: 0 10px 10px 0px;
+  }
 
-     .section-aside{
-        flex-direction: column;   
-     }
+  .section-aside {
+    flex-direction: column;
+  }
 
-     .div-aside{
-        margin: 0 0 0 20px;        
-     }
+  .div-aside {
+    margin: 0 0 0 20px;
+  }
+}
 
-    }
-    
-@media (max-width: 600px){
+@media (max-width: 600px) {
+  body {
+    margin: 20px;
+  }
 
-    body{
-        margin: 20px;
-    }
+  .PadreHeader {
+    flex-direction: column;
+  }
 
-    .PadreHeader{
-        flex-direction: column; 
-    }
-
-    .cabecera{    
-        width: 95%;            
-    }
-
-    .cabeceraLargo{
-        width: 95%;
-    }
-
-    section{
-        background: yellow;
-        width : 90% ;
-    }
-    
-    aside{
-        background: yellow;
-        width : 95% ;
-    }
-
-    .columna1{
-         flex-direction: column; 
-         
-    }
-
-    .columna2{
-        flex-direction: column; 
-   }
-
-    .seccion{
+  .cabecera {
     width: 95%;
-    }
+  }
+
+  .cabeceraLargo {
+    width: 95%;
+  }
+
+  section {
+    background: yellow;
+    width: 90%;
+  }
+
+  aside {
+    background: yellow;
+    width: 95%;
+  }
+
+  .columna1 {
+    flex-direction: column;
+  }
+
+  .columna2 {
+    flex-direction: column;
+  }
+
+  .seccion {
+    width: 95%;
+  }
 }
