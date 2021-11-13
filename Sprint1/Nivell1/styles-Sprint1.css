@@ -17,11 +17,12 @@ header{
     color: red; 
     width: 15%;  
 }
+
 .cabeceraLargo{
     
-    width: 75%;
-   
+    width: 75%;  
  }
+
 .PadreHeader{
     background: rgb(63, 60, 60);
     padding: 10px;
@@ -33,6 +34,7 @@ nav{
     background: black;
     padding: 0 20px 20px 20px;
 }
+
 .div-nav{
     background: orange;
     padding: 10px;
@@ -53,11 +55,8 @@ section{
 
 .padre-section{
     background: rgb(63, 60, 60);
-    padding: 10px; 
-   
-    
+    padding: 10px;        
 }
-
 
 .seccion{
     background: rgb(5, 112, 145);
@@ -65,13 +64,14 @@ section{
     margin: 10px;
     width: 50%;
 }
+
 .columna1{
     display: flex;
 }
+
 .columna2{
     display: flex;
 }
-
 
 .sectionPie{
     background: rgb(113, 189, 183);
@@ -96,6 +96,7 @@ aside{
     color: rgb(255, 196, 0);
     margin: 10px;
 }
+
 .section-aside{
    display: flex;
    justify-content: center;
@@ -114,58 +115,73 @@ footer{
 }
 
 @media ( max-width: 900px){
+
     body{
         margin: 20px;
     }
 
      section{
          background: yellow;
-         width: 95%;
+         width: 93%;
          margin: 10px 10px 0 0;
          padding: 20px 20px 0 20px;
      }
 
     aside{
         background: yellow;
-        width : 98% ;
+        width : 96% ;
         margin: 0 10px 10px 0px;
-       
-        
+             
      }
+
      .section-aside{
         flex-direction: column;   
      }
-     .div-aside{
-        margin: 0 0 0 20px;
-        
-     }
 
+     .div-aside{
+        margin: 0 0 0 20px;        
+     }
 
     }
     
-
-
-
-
-
 @media (max-width: 600px){
+
+    body{
+        margin: 20px;
+    }
+
     .PadreHeader{
-        flex-direction: column;  
+        flex-direction: column; 
     }
 
     .cabecera{    
         width: 95%;            
     }
+
     .cabeceraLargo{
         width: 95%;
     }
+
     section{
         background: yellow;
+        width : 90% ;
     }
+    
     aside{
         background: yellow;
+        width : 95% ;
     }
+
+    .columna1{
+         flex-direction: column; 
+         
+    }
+
+    .columna2{
+        flex-direction: column; 
+   }
+
     .seccion{
-    width: 90%;
+    width: 95%;
     }
 }
