@@ -1,0 +1,27 @@
+
+nav{
+    background: wheat;
+}
+
+header{
+    background: rgb(243, 214, 159);
+
+}
+
+section{
+    background: rgb(240, 221, 185);
+
+}
+
+aside{
+    background: rgb(128, 116, 95);
+
+}
+footer{
+    background: wheat;
+
+}
+.section-aside{
+    display: inline-block;
+    display: flex;
+}
