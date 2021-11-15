@@ -1,27 +1,180 @@
-
-nav{
-    background: wheat;
+body {
+  margin: 3% 3%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+   align-items: flex-start; 
 }
 
-header{
-    background: rgb(243, 214, 159);
 
+#icono {
+  width: 8%;
+}
+.nav-enlace {
+  font: 15px sans-serif;
+  display: inline-block;
+  background: rgb(252, 252, 250);
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 20px 0;
+}
+.nav-enlace:hover {
+  background: khaki;
+}
+.nav-enlace:roll-over {
+  background: rgb(240, 238, 140);
+}
+.social{
+    margin: 25px ;
+    padding: 5px;
+}
+.social:hover {
+    
+    color: #6813d6;
+  }
+.social:roll-over{
+   color: #1634db;
+   
 }
 
-section{
-    background: rgb(240, 221, 185);
 
-}
-
-aside{
-    background: rgb(128, 116, 95);
-
-}
-footer{
-    background: wheat;
-
-}
-.section-aside{
-    display: inline-block;
+.header {
     display: flex;
+    align-items:flex-end;
+    
+    height: 350px;
+      background: url(imagenes/header2.jpg);
+      background-position: center;
+      background-attachment: contain ;
+      background-size: cover ;  
+      margin: 0 0 10px 0;   
+}
+.caja-texto{ 
+    margin: 0 0 0 8%;
+    width: 85%;
+    background-color: rgba(221, 209, 209, 0.5);
+}
+.Texto-principal {
+  padding: 0 10px 30px 10px;
+  color: orange;
+  font-size: 20px;
+  font-family: 'Brush Script MT',cursive;
+  text-align: center;
+}
+
+
+section {
+  background: rgb(209, 206, 206);
+  margin: 0 10px 0 0;
+  
+  
+  
+}
+h2 {
+  background-color: rgb(216, 152, 123);
+  font-size: 20px verdana;
+  padding: 10px 0 0 0;
+  color: white;
+}
+
+.articulo1 {
+  font: 12px verdana;
+  background: rgb(245, 239, 239);
+  margin: 10px;
+  width: 45%;
+  padding: 10px;
+}
+
+.columna1 {
+  display: flex;
+}
+
+.columna2 {
+  display: flex;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+#texto-seccion {
+  display: flex;
+  text-align: inherit;
+}
+.parrafo {
+  display: flex;
+}
+.leer-mas{
+    color: black;
+    text-decoration: none;
+}
+.parrafo-final{
+    font: 12px verdana;
+    text-align: center;
+    padding:  0px 10px;
+
+}
+aside {
+  font: 12px verdana;
+  background: rgb(209, 206, 206);
+  text-align: center;
+  padding:   10px;
+  
+}
+footer {
+  font: 15px sans-serif;
+  background: rgb(209, 206, 206);
+  text-align: center;
+}
+.div-footer {
+  background-color: rgb(245, 239, 239);
+  margin: 10px;
+  padding: 1px;
+}
+.section-aside {
+  display: inline-block;
+  display: flex;
+  flex: 1 1 auto;
+}
+
+@media (max-width: 900px) {
+    .section-aside{
+        flex-direction: column;
+    }
+    section{
+        margin: 0 0 10px 0;
+    }
+    
+    .parrafo {
+        flex-direction: column;
+      }
+}
+
+@media (max-width: 600px){
+    nav{
+        flex-direction: column;
+    }
+    .nav-enlace  {
+        
+        margin: 10px 10px 10px 0;
+        
+    }
+    
+    .articulo1 {
+        width: 90%;
+
+    }
+    .columna1 {
+        flex-direction: column;
+      }
+      .columna2 {
+        flex-direction: column;
+      }
 }

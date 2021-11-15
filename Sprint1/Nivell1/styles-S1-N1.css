@@ -73,7 +73,7 @@ section {
 .sectionPie {
   background: rgb(113, 189, 183);
   color: rgb(113, 189, 183);
-  margin: 10px 10px 0 10px;
+  margin: 10px 10px 10px 10px;
 }
 
 aside {
@@ -111,21 +111,18 @@ footer {
 }
 
 @media (max-width: 900px) {
-  body {
-    margin: 20px;
-  }
-
+ 
   section {
     background: yellow;
-    width: 93%;
-    margin: 10px 10px 0 0;
-    padding: 20px 20px 0 20px;
+    width: auto;
+    margin: 20px 0px 0 0;
+    padding: 20px 20px 0px 20px;
   }
 
   aside {
     background: yellow;
-    width: 96%;
-    margin: 0 10px 10px 0px;
+    width: auto;
+    margin: 0px 0px 20px 0px;
   }
 
   .section-aside {
@@ -138,9 +135,7 @@ footer {
 }
 
 @media (max-width: 600px) {
-  body {
-    margin: 20px;
-  }
+ 
 
   .PadreHeader {
     flex-direction: column;
@@ -156,12 +151,13 @@ footer {
 
   section {
     background: yellow;
-    width: 90%;
+    
+    
   }
 
   aside {
     background: yellow;
-    width: 95%;
+    
   }
 
   .columna1 {
