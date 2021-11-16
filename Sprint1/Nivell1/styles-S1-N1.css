@@ -111,7 +111,6 @@ footer {
 }
 
 @media (max-width: 900px) {
- 
   section {
     background: yellow;
     width: auto;
@@ -135,8 +134,6 @@ footer {
 }
 
 @media (max-width: 600px) {
- 
-
   .PadreHeader {
     flex-direction: column;
   }
@@ -151,13 +148,10 @@ footer {
 
   section {
     background: yellow;
-    
-    
   }
 
   aside {
     background: yellow;
-    
   }
 
   .columna1 {
