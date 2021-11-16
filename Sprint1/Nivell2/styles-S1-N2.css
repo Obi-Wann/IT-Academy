@@ -1,15 +1,13 @@
 body {
   margin: 3% 3%;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav {
   width: 100%;
   display: inline-flex;
   justify-content: space-around;
-   align-items: flex-start; 
+  align-items: flex-start;
 }
-
-
 #icono {
   width: 8%;
 }
@@ -28,79 +26,62 @@ nav {
 .nav-enlace:roll-over {
   background: rgb(240, 238, 140);
 }
-.social{
-    margin: 25px ;
-    padding: 5px;
+.social {
+  margin: 25px;
+  padding: 5px;
 }
 .social:hover {
-    
-    color: #6813d6;
-  }
-.social:roll-over{
-   color: #1634db;
-   
+  color: #343434;
 }
-
-
 .header {
-    display: flex;
-    align-items:flex-end;
-    
-    height: 350px;
-      background: url(imagenes/header2.jpg);
-      background-position: center;
-      background-attachment: contain ;
-      background-size: cover ;  
-      margin: 0 0 10px 0;   
+  display: flex;
+  align-items: flex-end;
+
+  height: 350px;
+  background: url(imagenes/header2.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  margin: 0 0 10px 0;
 }
-.caja-texto{ 
-    margin: 0 0 0 8%;
-    width: 85%;
-    background-color: rgba(221, 209, 209, 0.5);
+.caja-texto {
+  margin: 0 0 0 8%;
+  width: 85%;
+  background-color: rgba(221, 209, 209, 0.5);
 }
 .Texto-principal {
   padding: 0 10px 30px 10px;
-  color: orange;
+  color: rgba(255, 99, 71, 0.5);
   font-size: 20px;
-  font-family: 'Brush Script MT',cursive;
+  font-family: "Brush Script MT", cursive;
   text-align: center;
 }
-
-
 section {
   background: rgb(209, 206, 206);
   margin: 0 10px 0 0;
-  
-  
-  
 }
 h2 {
   background-color: rgb(216, 152, 123);
   font-size: 20px verdana;
-  padding: 10px 0 0 0;
+  padding: 10px 0 0 10px;
   color: white;
 }
-
 .articulo1 {
   font: 12px verdana;
   background: rgb(245, 239, 239);
   margin: 10px;
-  width: 45%;
+  width: 50%;
   padding: 10px;
 }
-
 .columna1 {
   display: flex;
 }
-
 .columna2 {
   display: flex;
 }
-
 p {
   text-align: center;
 }
-
 img {
   width: 100%;
 }
@@ -111,22 +92,20 @@ img {
 .parrafo {
   display: flex;
 }
-.leer-mas{
-    color: black;
-    text-decoration: none;
+.leer-mas {
+  color: black;
+  text-decoration: none;
 }
-.parrafo-final{
-    font: 12px verdana;
-    text-align: center;
-    padding:  0px 10px;
-
+.parrafo-final {
+  font: 12px verdana;
+  text-align: center;
+  padding: 0px 10px;
 }
 aside {
   font: 12px verdana;
   background: rgb(209, 206, 206);
   text-align: center;
-  padding:   10px;
-  
+  padding: 10px;
 }
 footer {
   font: 15px sans-serif;
@@ -143,38 +122,47 @@ footer {
   display: flex;
   flex: 1 1 auto;
 }
-
-@media (max-width: 900px) {
-    .section-aside{
-        flex-direction: column;
-    }
-    section{
-        margin: 0 0 10px 0;
-    }
-    
-    .parrafo {
-        flex-direction: column;
-      }
+h3{
+  color: rgb(231, 231, 37);
+  padding: 0 10px;
+  margin-top: -30px;
 }
 
-@media (max-width: 600px){
-    nav{
-        flex-direction: column;
-    }
-    .nav-enlace  {
-        
-        margin: 10px 10px 10px 0;
-        
-    }
-    
-    .articulo1 {
-        width: 90%;
+@media (max-width: 900px) {
+  .section-aside {
+    flex-direction: column;
+  }
+  section {
+    margin: 0 0 10px 0;
+  }
+  .parrafo {
+    flex-direction: column;
+  }
+}
 
-    }
-    .columna1 {
-        flex-direction: column;
-      }
-      .columna2 {
-        flex-direction: column;
-      }
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  .nav-enlace {
+    margin: 10px 10px 10px 0;
+    width: 90%;
+    text-align: center;
+  }
+  .articulo1 {
+    
+    width: 90%;
+  }
+  .columna1 {
+    flex-direction: column;
+  }
+  .columna2 {
+    flex-direction: column;
+  }
+  .social{ 
+  margin-left: auto;
+
+  }
+  
+
 }
