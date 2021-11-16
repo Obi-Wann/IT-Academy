@@ -36,7 +36,6 @@ nav {
 .header {
   display: flex;
   align-items: flex-end;
-
   height: 350px;
   background: url(imagenes/header2.jpg);
   background-position: center;
