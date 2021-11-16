@@ -122,7 +122,7 @@ footer {
   display: flex;
   flex: 1 1 auto;
 }
-h3{
+h3 {
   color: rgb(231, 231, 37);
   padding: 0 10px;
   margin-top: -30px;
@@ -150,7 +150,6 @@ h3{
     text-align: center;
   }
   .articulo1 {
-    
     width: 90%;
   }
   .columna1 {
@@ -159,10 +158,10 @@ h3{
   .columna2 {
     flex-direction: column;
   }
-  .social{ 
-  margin-left: auto;
-
+  .social {
+    margin-left: auto;
   }
-  
-
+  #icono{
+    margin: auto;
+  }
 }
