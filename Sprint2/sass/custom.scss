@@ -1,0 +1,45 @@
+
+$primary: #5265E1;
+$secondary: #FA5959;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.btn-danger:hover {
+    background-color: white;
+    color: #FA5959;
+    outline: 2px solid #FA5959;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: #5265E1;
+    outline: 2px solid #5265E1;
+}
+
+.btn-light:hover {
+    background-color: transparent;
+    color: gray;
+    outline: 2px solid gray;
+}
+.btn-f:hover{ 
+    color: #FA5959;   
+}
+
+.tab-color{     
+   border-bottom: orangered ;  
+}
+
+.tab-color:hover{
+    border: none;
+    color: #FA5959;
+    border-bottom: solid #FA5959;  
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.accordion-button:hover {
+    color: red;
+}

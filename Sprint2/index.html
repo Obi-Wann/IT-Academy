@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Manager</title>
+    <link rel="stylesheet" href="sass\custom.css">
+    
+    <script src="/Sprint2/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+
+     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top"> 
+        <div class="container-fluid" id="navbar">
+             <a class="navbar-brand " href="#">
+             <img src="Imagenes/logo-bookmark.svg" alt="" width="100%">
+             </a>
+             <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapsable" aria-controls="navbar-collapsable" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+           <div class="collapse navbar-collapse justify-content-end" id="navbar-collapsable">      
+               <ul class="navbar-nav mr-auto  text-center ">     
+                 <li class="nav-item fs-7">
+                 <a class="nav-link active " aria-current="page" href="#">FEATURES</a>
+                 </li>
+                 <li class="nav-item fs-7">
+                 <a class="nav-link" href="#">PRINCING</a>
+                 </li>
+                 <li class="nav-item fs-7">
+                 <a class="nav-link" href="#">CONTACT</a>
+                 </li>
+                 <li class="nav-item fs-7">
+                  <button type="button" class="btn btn-danger ">LOGIN</button>
+                 </li>
+                
+               </ul>      
+           </div>
+        </div>
+      </nav>
+              
+      <main class="container-fluid ">
+      
+      <div class="container ">
+         <div class="row mt-5">   
+          <div class="col-12 col-md-6 order-md-2 mx-auto  mt-5">        
+            <img src="Imagenes/illustration-hero.svg"  alt="" width="100%">
+             </div> 
+            <div class="col-12 col-md-6   p-5 mt-5"> 
+               <div class=" p-1 ">
+                  <h1 class="fw-bolder "> A Simple Bookmark Manager</h1>
+               </div>
+               <div class="">
+              <p class="text-muted fs-5">A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites load instantly.Try it for free.</p>
+            </div>
+              <div class="container mt-4">   
+                  <button type="button" class="btn btn-primary me-3">Get it on Chrome</button>
+                  <button type="button" class=" shadow-sm btn btn-light">Get it on Firefox</button>     
+            </div>         
+         </div>  
+        </div>
+            <div class="col-12 p-5 text-center">     
+              <h2 class="fw-bolder"> Features</h2>
+              <div class="px-5">
+              <p class="text-muted fs-5">Our aim is to make it quick and easy for you to access your favorite websites.Your bookmarks sync between your devices so you can acess them on them on the go.</p>
+            </div>
+              
+  <div class="container">
+    <div class="row">          
+       <div class="col-12 order-md-3  mt-3 p-5 fw-bolde  ">  
+        <ul class="nav nav-tabs flext-column justify-content-center align-items-center " id="myTab" role="tablist">
+          <li class="nav-item px-3 shadow-sm  tab-color btn btn-outline-light" role="presentation">
+            <button class="nav-link  text-dark fs-5" id="tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Simple Bookmarking</button>
+          </li>
+          <li class="nav-item px-4 shadow-sm tab-color btn btn-outline-light" role="presentation">
+            <button class="nav-link  text-dark  fs-5" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Speedy Searchin</button>
+          </li>
+          <li class="nav-item  col-md-3 shadow-sm tab-color btn btn-outline-light" role="presentation">
+            <button class="nav-link   text-dark  fs-5 " id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Easy Sharing</button>
+          </li>
+        </ul>
+       </div>
+    </div>
+  </div>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row">
+              <div class="col-12 col-md-6  mx-auto  ">
+               <img src="Imagenes/illustration-features-tab-1.svg" alt="" width="100%">    
+              </div>
+      
+               <div class="col-12 col-md-6 p-5">
+                   <h2 class="fw-bolder">Bookmark in one click</h2>
+                    <p class="text-muted fs-5">Organize your bookmarks however you like.Our simple drag-and-drop interface gives you complete control over how you manage your favourites sites.</p>
+                    <div class=" ">
+                       <button type="button" class="btn btn-primary btn-lg fs-6">More info</button>        
+                    </div>      
+                </div>   
+            </div>
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="row">
+              <div class="col-12 col-md-6  mx-auto  ">
+               <img src="Imagenes/illustration-features-tab-2.svg" alt="" width="100%">    
+              </div>
+      
+               <div class="col-12 col-md-6 p-5">
+                   <h2 class="fw-bolder">Speedy Searchin</h2>
+                    <p class="text-muted fs-5">Organize your bookmarks however you like.Our simple drag-and-drop interface gives you complete control over how you manage your favourites sites.</p>
+                    <div class=" ">
+                       <button type="button" class="btn btn-primary btn-lg fs-6">More info</button>        
+                    </div>      
+                </div>   
+            </div>
+          </div>
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            
+            <div class="row">
+              <div class="col-12 col-md-6  mx-auto  ">
+               <img src="Imagenes/illustration-features-tab-3.svg" alt="" width="100%">    
+              </div>
+      
+               <div class="col-12 col-md-6 p-5">
+                   <h2 class="fw-bolder">Easy Sharing</h2>
+                    <p class="text-muted fs-5">Organize your bookmarks however you like.Our simple drag-and-drop interface gives you complete control over how you manage your favourites sites.</p>
+                    <div class=" ">
+                       <button type="button" class="btn btn-primary btn-lg fs-6">More info</button>        
+                    </div>      
+                </div>   
+            </div>
+          </div>
+        </div>
+
+         <div class="row">
+           <div class="col-12 m-5 p-5 text-center">
+             <h2 class="fw-bolder"> Download the exntesion</h2>
+             <p class="text-muted fs-5">We´ve got more browsers in the pipeline.Please do let us Know if you´ve got a favourite you´d like us to prioritize.</p>
+           </div>
+
+
+            <div class="col-12 col-md-4 text-center "> 
+              <div class="card shadow-lg p-3 mb-5 bg-body rounded">
+                 <div class="card-body ">       
+                 <div class="">
+                    <img src="Imagenes/logo-chrome.svg" alt="" width="50%">
+                 </div>
+                  <h5 class="mt-4 fs-3 fw-bolder">Add to Chrome</h5>
+                 <p class="text-muted fs-5">Minimun version 62</p>
+                 <img src="Imagenes/bg-dots.svg" alt="" width="100%">
+                 <button type="button" class="btn btn-primary mt-3 fs-6">Add & Install Extension</button>
+                 </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 p-3 mt-3 text-center">
+              <div class="card shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="card-body"> 
+                <img src="Imagenes/logo-firefox.svg" alt="" width="50%">
+                <h5 class="mt-4 fs-3 fw-bolder">Add to Firefox</h5>
+                <p class="text-muted fs-5">Minimun version 62</p>
+                <img src="Imagenes/bg-dots.svg" alt="" width="100%">
+                <button type="button" class="btn btn-primary mt-3 fs-6">Add & Install Extension</button>
+              </div>
+             </div>
+            </div>
+            <div class="col-12 col-md-4 p-3 mt-5 text-center">       
+              <div class="card shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="card-body"> 
+                <img src="Imagenes/logo-opera.svg" alt="" width="50%">
+                <h5 class="mt-4 fs-3 fw-bolder">Add to Opera</h5>
+                <p class="text-muted fs-5">Minimun version 62</p>
+                <img src="Imagenes/bg-dots.svg" alt="" width="100%">
+                <button type="button" class="btn btn-primary  mt-3 fs-6">Add & Install Extension</button>
+                </div>
+             </div>
+            </div>
+
+         <div class="row">
+             <div class="col-12  p-5 ">
+                 <h2 class="fw-bolder text-center">Frequently Asked Questions</h2>
+                 <p class="text-muted fs-5 col-md-8 mx-auto text-center " >Here are some of out FAQs.If you have any other questions you´d like answered please feel free to email us.</p>
+             </div>
+
+              <div class="col-12 col-md-9  mx-auto ">
+             <div class="accordion m-5" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <p class="fw-bolder">What is Bookmark?</p>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, consectetur molestiae saepe dolorem repellat a aut! Quaerat natus ad hic eligendi corporis? Neque veritatis velit porro perspiciatis adipisci. Temporibus, repellat.                      
+                    </strong>  
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <p class="fw-bolder">How can I request a new browser?</p>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, consectetur molestiae saepe dolorem repellat a aut! Quaerat natus ad hic eligendi corporis? Neque veritatis velit porro perspiciatis adipisci. Temporibus, repellat.                      
+                    </strong> 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <p class="fw-bolder">I there a mobile app?</p>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, consectetur molestiae saepe dolorem repellat a aut! Quaerat natus ad hic eligendi corporis? Neque veritatis velit porro perspiciatis adipisci. Temporibus, repellat.                      
+                    </strong> 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <p class="fw-bolder">What about other Chromiun browser?</p>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, consectetur molestiae saepe dolorem repellat a aut! Quaerat natus ad hic eligendi corporis? Neque veritatis velit porro perspiciatis adipisci. Temporibus, repellat.                      
+                    </strong> 
+                  </div>
+                </div>
+              </div>             
+            </div>
+                  
+            <div class="d-flex justify-content-center">         
+            <button type="button" class="btn btn-primary btn-lg mb-5 fs-6">More info</button>            
+          </div>
+        
+          </div>
+        </div> 
+      </main> 
+
+        <div class="row text-center">
+            <div class="p-5 bg-primary text-white"> 
+                  <h6>35.000+ ALREADY JOINED</h6>
+                  <h3 class="fw-bolder">Star up-to-date with what we´re doing</h3>
+
+                  <div class="container ">  
+                      <div class="row justify-content-center mt-5 "> 
+              
+                       <div class="col-12 col-md-6">
+                            <label for="inputemail2" class="visually-hidden"></label>
+                           <input type="email" class="form-control" id="inputemail2" placeholder="Enter your email address">
+                         </div>
+                         <div class="col-12 col-md-3">
+                           <button type="submit" class="btn btn-danger px-5 w-100" >Contact us</button>              
+                         </div>
+                      </div>       
+                  </div>
+             </div>
+         </div>
+                  
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark " >  
+               <div class="container flex-column flex-md-row align-items-center" > 
+           
+                <ul class="navbar-nav align-items-center">
+                <a class="nav-link ali" href="#"><img src="Imagenes/logo-bookmark-footer.svg" alt="" width="80%"></a>                
+                    <li class="nav-item  ">
+                      <a class="nav-link  text-white " aria-current="page" href="#">FEATURES</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link text-white" href="#">PRINCING</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link text-white" href="#">CONTACT</a>
+                    </li> 
+                      
+                    <div class="d-flex flex-row "> 
+                                      
+                      <a class="nav-link text-white  mx-2" href="#"><img src="Imagenes/icon-facebook.svg" alt="">  </a>  
+                      <a class="nav-link text-white mx-2" href="#"><img src="Imagenes/icon-twitter.svg" alt=""></a>            
+                    </div>
+                          
+                 </ul>
+              </div>
+           </nav>  
+</body>
+</html>
