@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\JAVASCRIPT-UDEMY\\Curso JS Moderno"
+		},
+		{
+			"path": "..\\JAVASCRIPT-UDEMY\\Curso JS Moderno - FIN"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Sprint3"
+	}
+}
